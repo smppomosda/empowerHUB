@@ -1,0 +1,51 @@
+{
+  "name": "EMPOWER HUB",
+  "short_name": "EMPOWER HUB",
+  "description": "Aplikasi EMPOWER HUB - dapat diinstal sebagai aplikasi native di desktop & mobile.",
+  "id": "/empower-hub-pwa/",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#eeeeee",
+  "theme_color": "#eeeeee",
+  "lang": "id",
+  "dir": "ltr",
+  "categories": ["productivity", "business", "education"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Buka EMPOWER HUB",
+      "short_name": "Buka",
+      "description": "Langsung buka aplikasi",
+      "url": "./",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
